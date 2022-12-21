@@ -1,0 +1,38 @@
+/* html { height: 100%; }
+body {
+   
+    min-height:max-content; 
+    position:relative; 
+
+   
+} */
+
+.footer{
+    
+   /* position: absolute; 
+   left: 0 ; right: 0; bottom: 0; 
+ min-height: min-content;
+  width: 100%;
+  background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-style:  bold;
+  font-style: italic; */
+  
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+ }
+ /* marquee{
+    width: 100%;
+    height: 20px;
+} */
+.fm1{
+    width: 100%;
+    height: 20px;
+   
+}

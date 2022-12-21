@@ -1,0 +1,95 @@
+
+
+.middleDiv{  
+
+    float: center;
+    text-align: center;
+   height: max-content;
+    font-size: 350%;
+    margin-top: 4%;
+    margin-bottom: 10%;
+
+ 
+ }
+ .firstText{
+    font-style:  bold;
+    font-style: italic;
+    color: rgba(86, 210, 241, 0.859); 
+    flex-flow: row wrap;
+    
+ }
+ input[type=text] {
+  
+   font-size: 50%;
+   border: rgb(244, 160, 204);
+   border-radius:15%;
+   border-style:groove;
+   box-shadow: 6%;
+   flex-flow: row wrap;
+    }
+    @media screen and (max-width: 350px) {
+
+      input[type=text] {
+      width: 55%;
+  
+      
+      }
+      
+      }
+      @media screen and (max-width: 170px) {
+
+       .middleDiv {
+         margin-top: 10%;
+         font-size: 170%; 
+        
+        }
+        input::placeholder{
+          font-size: 70%; 
+        }
+        
+        }
+        @media screen and (max-width: 586px) {
+
+          .middleDiv {
+            
+            font-size: 230%; 
+           
+           }
+           
+           }
+         
+    input:focus {
+      color: rgba(245, 242, 88, 0.893); 
+        background-color: rgba(155, 134, 147, 0.627);
+      }
+      .secondText
+      {
+        font-style:  bold;
+        font-style: italic;
+        color: rgba(86, 210, 241, 0.859); 
+      }
+      button{
+    
+       
+        font-size: 70%;
+    
+        padding-left: 5%;
+        padding-right: 5%;
+        cursor: pointer;
+        color:rgb(52, 46, 50);
+        background-color:  rgb(140, 240, 237);
+        border:none;
+       border-radius:15%;
+        box-shadow: 0px 0px 2px 2px rgb(225, 176, 176);
+       margin-bottom: 10%;
+       
+      
+        
+     }
+     button:hover {
+        background-color:#a870f6;
+      transition: 0.7s;
+      outline-color: transparent;
+      outline-style:solid;
+      box-shadow: 0 0 0 4px #c988f5;
+    }
